@@ -32,7 +32,7 @@ html, body {
   :root {
     --color-bg1: hsl(0, 0%, 0%);
     --color-bg2: hsl(0, 0%, 0%);
-    --color3: 100, 100, 100;  /* Reduced from 150 to 100 for darker grey */
+    --color3: 100, 100, 100;  /*  150-100 darker grey */
     --color4: 59, 130, 246;  /* Blue */
     --color5: 236, 72, 153;  /* Pink */
     --color-interactive: 150, 150, 150;
@@ -102,7 +102,7 @@ html, body {
   
   .g3, .g4, .g5 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color3), 0.5) 0, rgba(var(--color3), 0) 50%) no-repeat;  /* Reduced opacity from 0.7 to 0.5 */
+    background: radial-gradient(circle at center, rgba(var(--color3), 0.5) 0, rgba(var(--color3), 0) 50%) no-repeat;
     mix-blend-mode: var(--blending);
     width: var(--circle-size);
     height: var(--circle-size);
@@ -127,7 +127,7 @@ html, body {
   
   .interactive {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color3), 0.6) 0, rgba(var(--color3), 0) 50%) no-repeat;  /* Reduced opacity from 0.8 to 0.6 */
+    background: radial-gradient(circle at center, rgba(var(--color3), 0.6) 0, rgba(var(--color3), 0) 50%) no-repeat;
     mix-blend-mode: var(--blending);
     width: 150%;
     height: 150%;
